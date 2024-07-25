@@ -1,0 +1,35 @@
+container {
+    padding: 0 2rem;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .nav a {
+    margin-right: 1rem;
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  .section {
+    padding: 2rem 0;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .footer a {
+    color: #61dafb;
+    text-decoration: none;
+  }
