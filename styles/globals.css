@@ -1,6 +1,15 @@
-body {
-   font-family: Arial, sans-serif;
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-}
+:root {
+    --primary-color: #0070f3;
+    --secondary-color: #61dafb;
+    --background-color: #f0f4f8;
+    --header-footer-background: #333;
+    --text-color: #333;
+    --link-color: var(--primary-color);
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }

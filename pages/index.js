@@ -5,16 +5,18 @@ export default function Home(){
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <h1>My Portfolio</h1>
-        <nav>
+        <h1>Chris Magnuson</h1>
+        <nav className={styles.nav}>
           <Link href="#about">About Me</Link>
           <Link href="#projects">Projects</Link>
+          <Link href="/blog">Blog</Link>
           <Link href="#contact">Get in Touch</Link>
+          <Link href="/resume.pdf" target="_blank">Resume</Link>
         </nav>
       </header>
 
       <section id="about" className={styles.section}>
-        <h2>About Me</h2>
+        <h2 className={styles.sectionTitle}>About Me</h2>
         <p>I have always been fascinated with technology and after my time in the Marine Corps I decided to get out of the military and use my GI Bill to pursue a 
            bachelor's degree in Computer Science at California State University - San Bernardino. During my time there I also worked as a member of the Virtual Reality
            lab on my campus. During my time there I worked as a Software Developer creating projects for different departments on my campus. After graduation I also worked
@@ -23,32 +25,48 @@ export default function Home(){
        </p>
       </section>
 
-      <section id="Projects" className={styles.section}>
-        <h2>Projects</h2>
-        <ul>
-          <li>CSUSB VR Nursing Project: This is a project that I worked on while working as a student at California State University - San Bernardino.</li>
-          <li>Inventory Tracker: The purpose of this project is to build an application that allows you to track inventory items and will warn you when items are low. </li>
-          <li>Breath of the Coyote: This is a game that I built with four other memebers of my team at CSUSb. This game won first place in our game development class.</li>
-        </ul>
+      <section id="projects" className={styles.section}>
+        <h2 className={styles.sectionTitle}>Projects</h2>
+        <div className={styles['project-list']}>
+          <div className={styles['project-item']}>
+            <img src="/images/project1.jpg" alt="Project 1" />
+            <h3>CSUSB Nursing Project</h3>
+            <p>This was a project that I helped while working as a Software Developer for CSUSB's Virtual Reality Lab.</p>
+          </div>
+          <div className={styles['project-item']}>
+            <img src="/images/project2.jpg" alt="Project 2" />
+            <h3>Breath of the Coyote</h3>
+            <p>This is a project that I worked on while at CSUSB that won first place in my Game Development class. </p>
+          </div>
+          <div className={styles['project-item']}>
+            <img src="/images/project3.jpg" alt="Project 3" />
+            <h3>Command Line Tool</h3>
+            <p>This a project that I worked on that allows you to stitch multiple images together using OpenCV and C++ to create one single panoramic image.</p>
+          </div>
+        </div>
       </section>
 
       <section id="contact" className={styles.section}>
-        <h2>Get in Touch</h2>
-        <form action="mailto:cmagnuson0489@gmail.com" method="post" enctype="text/plain">
-          <label htmlFor="name">Name:</label>
-          <input type="text" id="name" name="name" required />
-          <label htmlFor="message">Message:</label>
-          <textarea id="message" name="message" required></textarea>
+        <h2 className={styles.sectionTitle}>Get in Touch</h2>
+        <form action="mailto:cmagnuson0489@gmail.com" method="post" encType="text/plain">
+          <div className={styles['form-group']}>
+            <label htmlFor="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div className={styles['form-group']}>
+            <label htmlFor="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
           <button type="submit">Send</button>
         </form>
       </section>
 
       <footer className={styles.footer}>
-        <a href="https://www.linkedin.com/in/chris-magnuson/" target="_blank">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/chris-magnuson" target="_blank">LinkedIn</a>
         <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a>
         <a href="https://www.twitter.com/yourprofile" target="_blank">Twitter</a>
         <a href="https://www.github.com/cmagnuson0489" target="_blank">Github</a>
       </footer>
     </div>
-  )
+  );
 }

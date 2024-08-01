@@ -1,0 +1,62 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.container {
+  padding: 0 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: var(--header-footer-background);
+  color: white;
+}
+
+.header nav a {
+  margin-right: 1rem;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.section {
+  padding: 4rem 0;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.postList {
+  list-style: none;
+  padding: 0;
+}
+
+.postItem {
+  margin: 2rem 0;
+}
+
+.postLink {
+  font-size: 1.5rem;
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.postDate {
+  display: block;
+  margin-top: 0.5rem;
+  color: #555;
+}
+
+.articleContent {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}

@@ -1,5 +1,5 @@
 {
-    "name": "Chris's-portfolio",
+    "name": "portfolio-site",
     "version": "1.0.0",
     "private": true,
     "scripts": {
@@ -12,9 +12,12 @@
         "-": "^0.0.1",
         "create-next-app": "^14.2.5",
         "g": "^2.0.1",
+        "gray-matter": "^4.0.3",
         "next": "latest",
         "react": "latest",
-        "react-dom": "latest"
+        "react-dom": "latest",
+        "remark": "^15.0.1",
+        "remark-html": "^16.0.1"
     },
     "devDependencies": {
         "eslint": "latest",
