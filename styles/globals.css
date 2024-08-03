@@ -6,7 +6,19 @@
     --text-color: #333;
     --link-color: var(--primary-color);
   }
-  
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+  body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
   body {
     margin: 0;
     font-family: Arial, sans-serif;

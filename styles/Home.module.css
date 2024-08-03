@@ -2,13 +2,15 @@
   padding: 0 2rem;
 }
 
-.header {
+.header, .footer {
+  width: 100vw; /* Ensure it spans the full width of the viewport */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
-  background-color: #333;
-  color: #fff;
+  padding: 1rem 2rem;
+  background-color: var(--header-footer-background);
+  color: var(--text-color);
+  margin-left: calc(50% - 50vw); /* Center the header and footer */
 }
 
 .nav {
@@ -17,7 +19,7 @@
 }
 
 .nav a {
-  color: #61dafb;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
@@ -30,16 +32,8 @@
   border-bottom: none;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem 0;
-  background-color: #333;
-  color: #fff;
-}
-
 .footer a {
-  color: #61dafb;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
@@ -84,7 +78,7 @@
 }
 
 .sectionTitle {
-  color: #0070f3;
+  color: var(--primary-color);
 }
 
 .blog-section {
