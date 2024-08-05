@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import styles from '.../styles/Home.module.css'
+import styles from '../styles/Home.module.css'
 
-export default function Home(){
+export default function Home() {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
@@ -15,13 +15,13 @@ export default function Home(){
 
       <section id="about" className={styles.section}>
         <h2>About Me</h2>
-        <p>I have always been fascinated with technology and after my time in the Marine Corps I decided to get out of the military and use my GI Bill to pursue a 
-           bachelor's degree in Computer Science at California State University - San Bernardino. During my time there I also worked as a member of the Virtual Reality
-           lab on my campus. During my time there I worked as a Software Developer creating projects for different departments on my campus. After graduation I also worked
-           as a Software Support Engineer at the Third Floor Inc where I was mainly working with Python, C++ and javascript. Please feel free to reach out to me if you are 
-           interested in my background or would like to discuss an opportunity you think I would be a good fit for.
-                 
-       </p>
+        <p>I have always been fascinated with technology and after my time in the Marine Corps I decided to get out of the military and use my GI Bill to pursue a
+          bachelor's degree in Computer Science at California State University - San Bernardino. During my time there I also worked as a member of the Virtual Reality
+          lab on my campus. During my time there I worked as a Software Developer creating projects for different departments on my campus. After graduation I also worked
+          as a Software Support Engineer at the Third Floor Inc where I was mainly working with Python, C++ and javascript. Please feel free to reach out to me if you are
+          interested in my background or would like to discuss an opportunity you think I would be a good fit for.
+
+        </p>
       </section>
 
       <section id="projects" className={styles.section}>
