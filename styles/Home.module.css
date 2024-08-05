@@ -2,88 +2,173 @@
   padding: 0 2rem;
 }
 
-.header, .footer {
-  width: 100vw; /* Ensure it spans the full width of the viewport */
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
   background-color: var(--header-footer-background);
-  color: var(--text-color);
-  margin-left: calc(50% - 50vw); /* Center the header and footer */
+  /* Updated header and footer background color */
+  color: white;
+  /* Updated text color to white */
+  width: 100%;
+}
+
+.header {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  padding: 1rem 2rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  /* Center the content */
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--header-footer-background);
+  /* Updated header and footer background color */
+  color: white;
+  /* Updated text color to white */
+  width: 100%;
 }
 
 .nav {
   display: flex;
-  gap: 1rem; /* Added gap for spacing between links */
+  gap: 1rem;
+  /* Added gap for spacing between links */
 }
 
 .nav a {
-  color: var(--secondary-color);
+  color: white;
+  /* Updated link color to white */
+  font-weight: bold;
+  /* Make links bold */
   text-decoration: none;
 }
 
 .section {
-  padding: 4rem 0; /* Increased padding for better spacing */
-  border-bottom: 1px solid #ccc; /* Added bottom border for visual separation */
+  padding: 4rem 2rem;
+  /* Increased padding for better spacing */
+  border-bottom: 1px solid #ccc;
+  /* Added bottom border for visual separation */
+  background-color: var(--gradient-start);
+  /* Updated gradient color */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  /* Add margin for spacing */
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: white;
+  /* Updated text color to white */
 }
 
 .section:last-child {
   border-bottom: none;
 }
 
+.socialNav {
+  display: flex;
+  gap: 1rem;
+  /* Match the gap for spacing between social media links */
+  justify-content: center;
+  /* Center the social media links */
+}
+
 .footer a {
-  color: var(--secondary-color);
+  color: white;
+  /* Updated link color to white */
+  font-weight: bold;
+  /* Make links bold */
   text-decoration: none;
 }
 
 .form-group {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem; /* Added margin-bottom for spacing */
+  margin-bottom: 1rem;
+  /* Added margin-bottom for spacing */
+  padding-left: 1rem;
+  /* Added padding-left for spacing */
 }
 
 .form-group label {
   margin-bottom: 0.5rem;
+  color: white;
+  /* Updated label color to white */
 }
 
-.form-group input {
-  padding: 0.5rem;
-  font-size: 1rem;
-  width: 50%; /* Reduced width */
-  max-width: 300px; /* Max width for better control */
-}
-
+.form-group input,
 .form-group textarea {
   padding: 0.5rem;
   font-size: 1rem;
-  width: 50%; /* Reduced width */
-  max-width: 300px; /* Max width for better control */
-  height: 200px; /* Increased height */
+  width: 50%;
+  /* Reduced width */
+  max-width: 300px;
+  /* Max width for better control */
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 4px rgba(0, 112, 243, 0.5);
 }
 
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem; /* Added gap for spacing between projects */
+  gap: 2rem;
+  /* Added gap for spacing between projects */
 }
 
 .project-item {
   width: 30%;
+  background-color: #161F6D;
+  /* Updated project box color to dark blue */
+  color: white;
+  /* Updated text color to white */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: transform 0.2s;
+}
+
+.project-item:hover {
+  transform: translateY(-5px);
 }
 
 .project-item img {
   max-width: 100%;
   height: auto;
+  border-radius: 4px;
 }
 
 .sectionTitle {
-  color: var(--primary-color);
+  color: white;
+  /* Updated title color to white */
+  font-weight: bold;
+  /* Make title bold */
 }
 
 .blog-section {
-  padding: 4rem 0; /* Increased padding for better spacing */
-  background-color: #f4f4f4;
+  padding: 4rem 2rem;
+  /* Increased padding for better spacing */
+  background-color: #161F6D;
+  /* Updated blog section color */
+  color: white;
+  /* Updated text color to white */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  /* Add margin for spacing */
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .blog-post {
