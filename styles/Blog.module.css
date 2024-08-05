@@ -1,55 +1,59 @@
-
 .container {
   padding: 0 2rem;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 0;
-  background-color: var(--header-footer-background);
+.nav {
+  margin: 2rem 0;
+  /* Add margin for spacing */
+}
+
+.nav a {
   color: white;
-}
-
-.header nav a {
-  margin-right: 1rem;
-  color: var(--secondary-color);
+  /* Set the link color to white */
   text-decoration: none;
+  font-weight: bold;
 }
 
-.section {
-  padding: 4rem 0;
-  border-bottom: 1px solid #ccc;
-  background-color: white;
-  margin-bottom: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.postList {
+.blogList {
   list-style: none;
   padding: 0;
 }
 
-.postItem {
+.blogPost {
+  padding: 2rem;
   margin: 2rem 0;
+  background-color: #00ABE1;
+  /* Light blue gradient */
+  color: white;
+  /* White lettering */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
 }
 
-.postLink {
-  font-size: 1.5rem;
-  color: var(--link-color);
+.blogPost:hover {
+  transform: translateY(-5px);
+}
+
+.blogLink {
   text-decoration: none;
+  color: white;
 }
 
-.postDate {
-  display: block;
-  margin-top: 0.5rem;
-  color: #555;
+.blogLink h3 {
+  margin: 0 0 0.5rem 0;
 }
 
-.articleContent {
-  padding: 2rem 0;
-  font-size: 1.2rem;
-  line-height: 1.6;
+.blogLink small {
+  color: #f0f4f8;
+}
+
+.backToBlog {
+  margin: 3rem 0 0;
+}
+
+.backToBlogLink {
+  color: white;
+  /* Set the color to white */
+  text-decoration: none;
 }

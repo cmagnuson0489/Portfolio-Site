@@ -32,13 +32,15 @@ export default function Home() {
 
       <section id="about" className={styles.section}>
         <h2 className={styles.sectionTitle}>About Me</h2>
-        <p>I have always been fascinated with technology and after my time in the Marine Corps I decided to get out of the military and use my GI Bill to pursue a
-          bachelor's degree in Computer Science at California State University - San Bernardino. During my time there I also worked as a member of the Virtual Reality
-          lab on my campus. During my time there I worked as a Software Developer creating projects for different departments on my campus. After graduation I also worked
-          as a Software Support Engineer at the Third Floor Inc where I was mainly working with Python, C++ and Javascript. I was also participating in code reviews and providing feedback other developers as well.
-          Please feel free to reach out to me if you are interested in my background or would like to discuss an opportunity you think I would be a good fit for.
-        </p>
-      </section>
+        <div className={styles.darkBlueBox}>
+          <p>I have always been fascinated with technology and after my time in the Marine Corps I decided to get out of the military and use my GI Bill to pursue a
+            bachelor's degree in Computer Science at California State University - San Bernardino. During my time there I also worked as a member of the Virtual Reality
+            lab on my campus. During my time there I worked as a Software Developer creating projects for different departments on my campus. After graduation I also worked
+            as a Software Support Engineer at the Third Floor Inc where I was mainly working with Python, C++ and Javascript. I was also participating in code reviews and providing feedback other developers as well.
+            Please feel free to reach out to me if you are interested in my background or would like to discuss an opportunity you think I would be a good fit for.
+          </p>
+        </div>
+      </section >
 
       <section id="projects" className={styles.section}>
         <h2 className={styles.sectionTitle}>Projects</h2>
@@ -99,6 +101,6 @@ export default function Home() {
           <a href="https://www.github.com/cmagnuson0489" target="_blank">Github</a>
         </div>
       </footer>
-    </div>
+    </div >
   );
 }
