@@ -88,8 +88,7 @@ export default function Home() {
       <footer className={styles.footer}>
         <div className={styles.socialNav}>
           <a href="https://www.linkedin.com/in/chris-magnuson" target="_blank">LinkedIn</a>
-          <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a>
-          <a href="https://www.twitter.com/yourprofile" target="_blank">Twitter</a>
+          <a href="https://www.instagram.com/chrismagnuson2105" target="_blank">Instagram</a>
           <a href="https://www.github.com/cmagnuson0489" target="_blank">Github</a>
         </div>
       </footer>
