@@ -44,9 +44,8 @@ export default function Home() {
         <div className={styles['project-list']}>
           <div className={styles['project-item']}>
             <img src="/images/project1.jpg" alt="Project 1" />
-            <h3>CSUSB Nursing Education Project</h3>
-            <p>This project was developed for the Nursing Department at CSUSB and was created by our VR team. Our job was to create a
-              simulation that would allow a student nurse to react with a simulated patient and have a detailed conversation with the patient.The entire simulation was designed to last about 10:00 to 15:00 minutes. This simulation allows Nursing professors to judge their students performance interacting with a patient. It also allows the student nurse to practice their behavior before they are placed in a real world environment.
+            <h3>Inventory Tracker</h3>
+            <p>This project was created to provide an Inventory tracker that currently allows you to track items and add new items. The technologies used to create this application were React.js, JavaScript, Next.js, Material UI, Node.js and Firebase.
             </p>
           </div>
           <div className={styles['project-item']}>
@@ -63,6 +62,13 @@ export default function Home() {
               single panoramic image.
             </p>
           </div>
+          <div className={styles['project-item']}>
+            <img src="/images/project4.jpg" alt="Project 4" />
+            <h3>CSUSB Nursing Education Project</h3>
+            <p>This project was developed for the Nursing Department at CSUSB and was created by our VR team. Our job was to create a
+            simulation that would allow a student nurse to react with a simulated patient and have a detailed conversation with the patient.The entire simulation was designed to last about 10:00 to 15:00 minutes. This simulation allows Nursing professors to judge their students performance interacting with a patient. It also allows the student nurse to practice their behavior before they are placed in a real world environment.
+            </p>
+            </div>
         </div>
       </section>
 
