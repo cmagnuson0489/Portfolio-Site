@@ -47,23 +47,48 @@ export default function Home() {
             <h3>Inventory Tracker</h3>
             <p>This project was created to provide an Inventory tracker that currently allows you to track items and add new items. The technologies used to create this application were React.js, JavaScript, Next.js, Material UI, Node.js and Firebase.
             </p>
+            <div className={styles.projectLinks}>
+              <a href="https://github.com/cmagnuson0489/inventory-tracker" target="_blank" rel="noopener noreferrer">
+                GitHub Repo
+              </a>
+              <a href="https://inventory-tracker-taupe.vercel.app/" target="_blank" rel="noopener noreferrer">
+                Live Demo
+              </a>
+            </div>
           </div>
+
           <div className={styles['project-item']}>
-            <img src="/images/project2.jpg" alt="Project 2" />
-            <h3>Breath of the Coyote</h3>
-            <p>Our game was ranked first place by a team of judges that were provided by our professor and a team of industry    professionals.  This was a game developed for class.The project was to create a video game during the 10 week course in Unity. Our game was ranked first place in the class by a team of judges provided by our professor as well our professor himself. The judges were a mix of Computer Science Professors and Game Development professionals. The game can be of the team's choosing and can be in either 2D or 3D.
-              This game was developed in 3D with a team of 10 (5 programmers, 2 artists, 2 musicians). The game is an open world, action adventure game with influences from games such as The Legend of Zelda: Breath of the Wild and The Elder Scrolls V: Skyrim. The game features a full third person character movement system, an environmental puzzle system, and a combat system.
+            <h3>Image Stitching tool</h3>
+            <p>This a command line tool written in C# that I worked on that allows you to take in two inputs and and a flag. A directory that contains the files that are to be analyzed. A path for the output file (including file name and extension).
+             A flag to determine whether or not to include subdirectories contained (and all subsequently embedded subdirectories) within the input directory. It then processes each of the files in the directory (and subdirectories if the flag is present).
+             It also determines using a file signature if a given file is a PDF or a JPG.
             </p>
+            <div className={styles.projectLinks}>
+              <a href="https://github.com/cmagnuson0489/Command-Line-Application" target="_blank" rel="noopener noreferrer">
+                GitHub Repo
+              </a>
+            </div>
           </div>
           <div className={styles['project-item']}>
-            <img src="/images/project3.jpg" alt="Project 3" />
             <h3>Command Line Tool</h3>
-            <p>This a project that I worked on that allows you to stitch multiple images together using OpenCV and C++ to create one
-              single panoramic image.
+            <p>This a project that I worked on that allows you to stitch multiple images together using OpenCV and C++ to create one single panoramic image
+            </p>
+            <div className={styles.projectLinks}>
+            <a href="https://github.com/cmagnuson0489/Image-Stitching" target="_blank" rel="noopener noreferrer">
+                GitHub Repo
+              </a>
+          </div>
+          </div>
+
+          <div className={styles['project-item']}>
+            <h3>Breath of the Coyote</h3>
+            <p>Our game was ranked first place by a team of judges that were provided by our professor and a team of industry professionals.  This was a game developed for class.The project was to create a video game during the 10 week course in Unity. Our game was ranked first place in the class by a team of judges provided by our professor as well our professor himself. The judges were a mix of Computer Science Professors and Game Development professionals. The game can be of the team's choosing and can be in either 2D or 3D.
+            This game was developed in 3D with a team of 10 (5 programmers, 2 artists, 2 musicians). The game is an open world, action adventure game with influences from games such as The Legend of Zelda: Breath of the Wild and The Elder Scrolls V: Skyrim. The game features a full third person character movement system, an environmental puzzle system, and a combat system.
             </p>
           </div>
+
           <div className={styles['project-item']}>
-            <img src="/images/project4.jpg" alt="Project 4" />
+            <img src="/images/project5.jpg" alt="Project 5" />
             <h3>CSUSB Nursing Education Project</h3>
             <p>This project was developed for the Nursing Department at CSUSB and was created by our VR team. Our job was to create a
             simulation that would allow a student nurse to react with a simulated patient and have a detailed conversation with the patient.The entire simulation was designed to last about 10:00 to 15:00 minutes. This simulation allows Nursing professors to judge their students performance interacting with a patient. It also allows the student nurse to practice their behavior before they are placed in a real world environment.

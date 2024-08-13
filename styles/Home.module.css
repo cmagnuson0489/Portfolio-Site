@@ -119,6 +119,13 @@
   transition: transform 0.2s;
 }
 
+.projectLinks a {
+  display: inline-block;
+  margin-right: 1rem;
+  color: grey;
+  text-decoration: none;
+}
+
 .project-item:hover {
   transform: translateY(-5px);
 }
