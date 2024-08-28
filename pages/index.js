@@ -91,7 +91,7 @@ export default function Home() {
             <img src="/images/project5.jpg" alt="Project 5" />
             <h3>CSUSB Nursing Education Project</h3>
             <p>This project was developed for the Nursing Department at CSUSB and was created by our VR team. Our job was to create a
-            simulation that would allow a student nurse to react with a simulated patient and have a detailed conversation with the patient.The entire simulation was designed to last about 10:00 to 15:00 minutes. This simulation allows Nursing professors to judge their students performance interacting with a patient. It also allows the student nurse to practice their behavior before they are placed in a real world environment.
+            simulation that would allow a student nurse to react with a simulated patient and have a detailed conversation with the patient.The entire simulation was designed to last about ten to fifteen minutes. This simulation allows Nursing professors to judge their students performance interacting with a patient. It also allows the student nurse to practice their behavior before they are placed in a real world environment. Credit for this picture belongs to the XReal Lab at CSUSB.
             </p>
             </div>
         </div>
